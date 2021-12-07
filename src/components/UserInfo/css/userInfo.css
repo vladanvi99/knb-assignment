@@ -1,0 +1,47 @@
+.user-info {
+  margin-top: 60px;
+}
+
+.user-info ul {
+  list-style-type: none;
+}
+
+.user-info ul li {
+  margin-top: 8px;
+}
+
+.user-info ul li .primary-text {
+  font-size: 22px;
+}
+
+.user-info ul li .secondary-text {
+  font-size: 18px;
+  margin-left: 12px;
+}
+
+.user-info .recommended-products {
+  margin-top: 80px;
+}
+
+.user-info .recommended-products h2 {
+  font-size: 38px;
+  margin-bottom: 18px;
+}
+
+.user-info .recommended-products .products-wrap {
+  max-width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 2px;
+}
+
+.user-info .recommended-products .products-wrap p {
+  background-color: #9f7462;
+  color: #fff;
+  font-size: 16px;
+  padding: 8px 12px;
+}
+/*# sourceMappingURL=userInfo.css.map */

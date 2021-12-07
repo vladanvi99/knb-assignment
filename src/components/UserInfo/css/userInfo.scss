@@ -1,0 +1,35 @@
+.user-info {
+    margin-top: 60px;
+    ul {
+        list-style-type: none;
+        li {
+            margin-top: 8px;
+            .primary-text {
+                font-size: 22px;
+            }
+            .secondary-text {
+                font-size: 18px;
+                margin-left: 12px;
+            }
+        }
+    }
+    .recommended-products {
+        margin-top: 80px;
+        h2 {
+            font-size: 38px;
+            margin-bottom: 18px;
+        }
+        .products-wrap {
+            max-width: 500px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2px;
+            p {
+                background-color: #9f7462;
+                color: #fff;
+                font-size: 16px;
+                padding: 8px 12px;
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+.wrap {
+    max-width: 1200px;
+    margin: auto;
+    .users-drop-down {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 80px;
+        select {
+            width: 200px;
+            height: 44px;
+            background-color: #9f7462;
+            border: none;
+            outline: none;
+            color: #fff;
+            padding: 0 12px;
+            font-size: 18px;
+        }
+    }
+}

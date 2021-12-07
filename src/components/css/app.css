@@ -1,0 +1,27 @@
+.wrap {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.wrap .users-drop-down {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: 80px;
+}
+
+.wrap .users-drop-down select {
+  width: 200px;
+  height: 44px;
+  background-color: #9f7462;
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 0 12px;
+  font-size: 18px;
+}
+/*# sourceMappingURL=app.css.map */
